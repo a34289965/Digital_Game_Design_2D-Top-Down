@@ -512,9 +512,9 @@ GameObject:
   - component: {fileID: 531133794}
   - component: {fileID: 531133793}
   - component: {fileID: 531133792}
-  - component: {fileID: 531133795}
   - component: {fileID: 531133797}
   - component: {fileID: 531133796}
+  - component: {fileID: 531133795}
   m_Layer: 0
   m_Name: RubyRunUp1
   m_TagString: Untagged
@@ -532,7 +532,7 @@ Animator:
   m_GameObject: {fileID: 531133791}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bcfd5b468c58ea34690ecc0d9dfbec29, type: 2}
+  m_Controller: {fileID: 9100000, guid: 10abaeb0d1f13c448af57549748775f7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -616,11 +616,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 531133791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1c42f01071b72449a8ee46bced64ae3, type: 3}
+  m_Script: {fileID: 11500000, guid: 41bb41a20d875e84aa6cab7d9b0cbbd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.01
-  RubyAnim: {fileID: 0}
+  rubyAnimator: {fileID: 0}
+  rb: {fileID: 0}
+  speed: 3
 --- !u!70 &531133796
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
